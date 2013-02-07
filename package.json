@@ -1,0 +1,32 @@
+{
+  "name": "quasicrystals",
+  "version": "0.0.0",
+  "description": "Quasicrystal pattern generator",
+  "main": "quasicrystal.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gl-shells": "~0.0.5",
+    "isosurface": "~0.0.1",
+    "jquery-browserify": "~1.8.1",
+    "simplicial-complex": "~0.3.0",
+    "stl": "~0.0.1",
+    "trimesh": "~0.0.8"
+  },
+  "scripts": {
+    "test": "node make_stl.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/quasicrystals.git"
+  },
+  "keywords": [
+    "quasicrystal",
+    "3d",
+    "pattern"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "c091e35ecf40afabea52d4c3d24fdba816d5d420"
+}
