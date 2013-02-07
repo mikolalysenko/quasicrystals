@@ -1,4 +1,4 @@
-module.exports = function(waves) {
+module.exports = function(waves, level) {
   var result = [];
   var dresult = [];
   result.push("var s=0.0");
